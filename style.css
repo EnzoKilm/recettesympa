@@ -110,7 +110,7 @@ footer a:focus {
 }
 .primary-sidebar input:focus {
   outline: none !important;
-  border:1px solid gray;
+  border: 1px solid gray;
   box-shadow: 1px 0 1px gray;
 }
 .primary-sidebar form label {
@@ -118,6 +118,17 @@ footer a:focus {
 }
 .primary-sidebar, .article-loop {
   margin: 12px 0 12px 0;
+}
+
+.primary-sidebar div ul {
+  list-style-type: none;
+  padding: 0 0 0 0;
+  width: 100%;
+  text-align: center;
+}
+.primary-sidebar div ul li {
+  display: inline-block;
+  margin: 0 4px 0 4px;
 }
 /*  */
 /* Sidebar avec des recettes aléatoires */
