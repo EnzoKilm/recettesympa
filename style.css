@@ -130,6 +130,14 @@ footer a:focus {
   display: inline-block;
   margin: 0 4px 0 4px;
 }
+.primary-sidebar div ul li a,
+.primary-sidebar div ul li a:visited {
+  color: #2c2c2c;
+}
+.primary-sidebar div ul li a:hover,
+.primary-sidebar div ul li a:focus {
+  color: #fff;
+}
 /*  */
 /* Sidebar avec des recettes aléatoires */
 .random-posts {
@@ -155,15 +163,13 @@ footer a:focus {
 .random-posts div ul li a {
   font-weight: bold;
 }
-.random-posts div ul li a {
+.random-posts div ul li a,
+.random-posts div ul li a:visited {
   color: #000;
 }
 .random-posts div ul li a:hover,
 .random-posts div ul li a:focus {
   color: #333333;
-}
-.random-posts div ul li a:visited {
-  color: #000;
 }
 
 .random-posts div ul li div :not(a){
@@ -199,11 +205,13 @@ footer a:focus {
   text-align: left;
   margin: 0 0 0 0;
 }
-.article-loop h2 a {
+.article-loop h2 a,
+.article-loop h2 a:visited {
   color: #000;
 }
-.article-loop h2 a:visited {
-  color: #2c2c2c;
+.article-loop h2 a:hover,
+.article-loop h2 a:focus {
+  color: #333333;
 }
 .article-loop hr {
   margin: 10px 0 10px 0;
