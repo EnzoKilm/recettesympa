@@ -1,0 +1,5 @@
+Liste des extensions installées :
+
+- Advanced Random Posts Widget
+- Custom Sidebars
+- Single Post Template
